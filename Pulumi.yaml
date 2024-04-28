@@ -1,0 +1,7 @@
+name: infrastructure
+runtime: nodejs
+description: A Pulumi Infrastructure project in Typescript
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
